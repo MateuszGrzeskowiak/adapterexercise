@@ -1,5 +1,5 @@
 package com.sda.dp;
 
-public interface Adapter {
+public interface KitchenDevice {
     void turnDeviceOn();
 }
