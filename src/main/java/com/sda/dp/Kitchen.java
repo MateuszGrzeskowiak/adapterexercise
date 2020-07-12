@@ -13,11 +13,11 @@ public class Kitchen {
 //        this.deviceList.add(new CoffeMachine()); ??
     }
 
-    public void turnEverythingOn(){
+
+    public void turnEverythingOff(){
         for (KitchenDevice device : deviceList) {
-            device.turnDeviceOn();
+            device.turnDeviceOff();
         }
     }
 
-    // TODO: turn off
 }
